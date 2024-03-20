@@ -7,7 +7,7 @@ services:
     image: "yandex/clickhouse-server:latest"
 
   nginx:
-    image: nginx:1.17
+    image: nginx:latest
     container_name: suite_nginx
     network_mode: host
     volumes:
